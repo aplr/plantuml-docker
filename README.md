@@ -21,5 +21,5 @@ cat diagram.puml | docker run --rm -i aplr/plantuml > diagram.svg
 If you want to output the diagram as PDF, you have to set the output type to `-tpdf`:
 
 ```bash
-cat diagram.puml | docker run --rm -i aplr/plantuml -tpdf > diagram.png
+cat diagram.puml | docker run --rm -i aplr/plantuml -tpdf > diagram.pdf
 ```
